@@ -1,4 +1,5 @@
 export const GET_FETCH = (url : string, bearerToken : string) => {
+    console.log(url, bearerToken)
     return fetch(url, {
         method: 'GET',
         headers : new Headers({

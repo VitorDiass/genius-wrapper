@@ -15,6 +15,7 @@ class Client {
   }
 
   public getSong(songId: string): Promise<any> {
+    console.log(this.bearerToken)
     return GET_FETCH(`${GENIUS_API_BASE}/${GENIUS_API_SONGS}/${songId}`, this.getBearerToken());
   }
 }
