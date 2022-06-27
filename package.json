@@ -1,0 +1,25 @@
+{
+  "name": "genius-wrapper",
+  "version": "1.0.0",
+  "description": "A js wrapper for genius API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorDiass/genius-wrapper.git"
+  },
+  "author": "Vitor Dias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VitorDiass/genius-wrapper/issues"
+  },
+  "homepage": "https://github.com/VitorDiass/genius-wrapper#readme",
+  "devDependencies": {
+    "@types/simple-oauth2": "^4.1.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
