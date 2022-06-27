@@ -1,9 +1,11 @@
 {
   "name": "genius-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A js wrapper for genius API",
   "main": "index.js",
-  "files": ["/lib"],
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "dev": "nodemon"
