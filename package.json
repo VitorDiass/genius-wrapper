@@ -2,13 +2,14 @@
   "name": "genius-wrapper",
   "version": "1.0.2",
   "description": "A js wrapper for genius API",
-  "main": "index.js",
+  "main": "index.ts",
   "files": [
-    "/lib"
+    "/build"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "build": "rimraf ./build && tsc"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "@types/simple-oauth2": "^4.1.1",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
   }
 }
