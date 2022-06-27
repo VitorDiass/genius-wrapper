@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.POST_FETCH = exports.GET_FETCH = void 0;
 const GET_FETCH = (url, bearerToken) => {
+    console.log(url, bearerToken);
     return fetch(url, {
         method: 'GET',
         headers: new Headers({

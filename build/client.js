@@ -13,6 +13,7 @@ class Client {
         this.bearerToken = bearerToken;
     }
     getSong(songId) {
+        console.log(this.bearerToken);
         return (0, fetch_1.GET_FETCH)(`${consts_1.GENIUS_API_BASE}/${consts_1.GENIUS_API_SONGS}/${songId}`, this.getBearerToken());
     }
 }
