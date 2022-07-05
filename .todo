@@ -1,0 +1,2 @@
+☐ Test out requests with format_text array @low 
+☐ Change the way request params are handled - URLSearchParams @low
