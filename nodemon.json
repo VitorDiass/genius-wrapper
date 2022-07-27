@@ -1,6 +1,0 @@
-{
-    "watch": [],
-    "ext": ".ts,.js",
-    "ignore": ["node_modules", "bower_components", "test", "tests"],
-    "exec": "ts-node index.ts"
-  }
