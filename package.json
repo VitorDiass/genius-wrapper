@@ -2,7 +2,7 @@
   "name": "genius-js-wrapper",
   "version": "1.0.2",
   "description": "A js wrapper for genius API",
-  "main": "index.ts",
+  "main": "lib/index.js",
   "files": [
     "/lib"
   ],
@@ -11,6 +11,13 @@
     "dev": "nodemon",
     "build": "tsc"
   },
+  "keywords": [
+    "genius",
+    "api",
+    "wrapper",
+    "javascript",
+    "typesafe"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VitorDiass/genius-wrapper.git"
