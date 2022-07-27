@@ -5,6 +5,8 @@ lib/
 
 *.js
 
+nodemon.json
+
 # Logs
 logs
 *.log
