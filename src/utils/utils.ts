@@ -1,7 +1,7 @@
 import { text_format, text_format_types } from "../interfaces";
 
 export const format_text = (textFormat?: text_format) => {
-    console.log(textFormat?.text_format);
+    //console.log(textFormat?.text_format);
     let textFormatReturn = "";
 
     if (textFormat?.text_format && textFormat?.text_format.length > 0) {

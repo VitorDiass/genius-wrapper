@@ -2,7 +2,7 @@ import header from './header';
 
 export const GET_FETCH = (url : string, bearerToken : string, params: string = '') => {
     const url_params = url + (params && '?' + params);
-    console.log(url_params);
+    //console.log(url_params);
     return fetch(url_params, {
         method: 'GET',
         headers : header(bearerToken)

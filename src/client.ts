@@ -6,8 +6,12 @@ import { sort_order, text_format, text_format_types } from "./interfaces";
 class Client {
     private bearerToken: string = "";
 
-    constructor() {}
+    constructor(bearerToken : string) {
+      this.setBearerToken(bearerToken)
+    }
 
+    
+    
     /**
      * @description function to get the bearer token
      * @returns string
