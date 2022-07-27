@@ -1,6 +1,6 @@
 {
   "name": "genius-js-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A js wrapper for genius API",
   "main": "index.ts",
   "files": [
