@@ -10,11 +10,11 @@ A js wrapper for [Genius](https://genius.com/) API
 
 NPM
 ```
-npm install genius-wrapper
+npm install genius-js-wrapper
 ```
 YARN
 ```
-yarn add genius-wrapper
+yarn add genius-js-wrapper
 ```
 ---
 ### USAGE
