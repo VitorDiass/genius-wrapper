@@ -6,7 +6,7 @@ import { sort_order, text_format, text_format_types } from "./interfaces";
 class Client {
     private bearerToken: string = "";
 
-    constructor(bearerToken : string) {
+    constructor(bearerToken : string = '') {
       this.setBearerToken(bearerToken)
     }
 
