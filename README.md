@@ -4,12 +4,6 @@ A js wrapper for [Genius](https://genius.com/) API
 ![Release](https://badgen.net/github/release/VitorDiass/genius-wrapper/stable)
 ---
 
-### TO DO
-
-- [ ] Add convenience methods to request specific information such as artist name, album name, release year, etc
-- [ ] Implement a lyrics grabber
-- [ ] Add meaninful error messages
-
 
 ---
 ### INSTALLATION
@@ -147,6 +141,14 @@ const search = async() => {
   }
 }
 ```
+
+---
+
+### TO DO
+
+- [ ] Add convenience methods to request specific information such as artist name, album name, release year, etc
+- [ ] Implement a lyrics grabber
+- [ ] Add meaninful error messages
 
 ---
 
