@@ -1,7 +1,7 @@
 # GENIUS-WRAPPER
 A js wrapper for [Genius](https://genius.com/) API
 
-![Release](https://badgen.net/github/release/VitorDiass/genius-wrapper/stable)
+![Release](https://badgen.net/github/release/VitorDiass/genius-wrapper)
 ---
 
 
