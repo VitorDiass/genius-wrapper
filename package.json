@@ -1,5 +1,5 @@
 {
-  "name": "genius-wrapper",
+  "name": "genius-js-wrapper",
   "version": "0.0.0",
   "description": "A js wrapper for genius API",
   "main": "index.ts",
